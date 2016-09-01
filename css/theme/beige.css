@@ -6,7 +6,7 @@
  * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
  */
 @font-face {
-  font-family: 'Noto Sans TC';
+  font-family: 'Noto Sans TC2';
   font-style: normal;
   font-weight: 600;
   src: 
@@ -39,6 +39,8 @@ body {
    font-family: 'Noto Sans TC';
    font-style: normal;
    font-weight: 700;
+     src: 
+       url(../../lib/font/league_gothic-webfont.otf) format('opentype');
   font-size: 36px;
   font-weight: normal;
   letter-spacing: -0.02em;
@@ -48,6 +50,8 @@ body {
    font-family: 'Noto Sans TC';
    font-style: normal;
    font-weight: 700;
+        src: 
+       url(../../lib/font/league_gothic-webfont.otf) format('opentype');
   font-size: 36px;
    color: #FF5656;
   background: rgba(180, 64, 28, 0.99);
@@ -57,45 +61,71 @@ body {
  * HEADERS 標題字
  *********************************************/
 .reveal h1,
-.reveal h2,
 .reveal h3,
 .reveal h4,
 .reveal h5,
 .reveal h6 {
   margin: 0 0 16px 0;
   color: #C9182B;
-    font-family: 'Noto Sans TC';
+    font-family: 'Noto Sans TC2';
   font-style: normal;
   font-weight: 900;
-  font-size: 80px;
+  font-size: 85px;
   line-height: 0.9em;
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-shadow: none; }
 
+.reveal h2
+{
+  margin: 0 0 16px 0;
+  color: #FF5656;
+    font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: none; }
 .reveal h1 {
-  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #c9c9c9, 0 3px 0 #bbbbbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaaaaa, 0 6px 1px rgba(0, 0, 0, 0.1), 0 0 5px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.3), 0 3px 5px rgba(0, 0, 0, 0.2), 0 5px 10px rgba(0, 0, 0, 0.25), 0 20px 20px rgba(0, 0, 0, 0.15); }
+  text-shadow: 
+  0 1px 0 #FCFAEF, 
+  0 2px 0 #c9c9c9, 
+  0 3px 0 #bbbbbb, 
+  0 4px 0 #b9b9b9, 
+  0 5px 0 #aaaaaa, 
+
+  0 6px 1px rgba(0, 0, 0, 0.1),
+  0 0 5px rgba(0, 0, 0, 0.1),
+  0 1px 3px rgba(0, 0, 0, 0.3),
+  0 3px 5px rgba(0, 0, 0, 0.2),
+  0 5px 10px rgba(0, 0, 0, 0.25),
+  0 20px 20px rgba(0, 0, 0, 0.15); }
+}
 
 /*********************************************
  * LINKS
  *********************************************/
 .reveal a:not(.image) {
-  color: #8b743d;
+  color: #FCFAEF;
   text-decoration: none;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   -ms-transition: color .15s ease;
   -o-transition: color .15s ease;
   transition: color .15s ease; }
+ 
+
 
 .reveal a:not(.image):hover {
-  color: #03414D;
+  color: #B23256;
   text-shadow: none;
   border: none; }
 
 .reveal .roll span:after {
-  color: #03414Df;
-  background: #03414D; }
+  color: #FCFAEF;
+  background: #FCFAEF; }
 
 /*********************************************
  * IMAGES
