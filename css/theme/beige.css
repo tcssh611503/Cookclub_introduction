@@ -1,9 +1,9 @@
-
 /*@import url(http://fonts.googleapis.com/earlyaccess/notosanstc.css);
-/**
  * Beige theme for reveal.js.
  *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
+ * Copyright (C) 
+ 2011-2012 Hakim El Hattab, http://hakim.se
+ 2016/09 york 修改
  */
 @font-face {
   font-family: 'Noto Sans TC2';
@@ -13,68 +13,91 @@
        url(../../lib/font/NotoSansTC-Bold.otf) format('opentype');
 }
 
-
-
 /*********************************************
  * GLOBAL STYLES
  *********************************************/
 body {
-  background: #03414D;
-  background: -moz-radial-gradient(center, circle cover, white 0%, #03414D 100%);
-  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, white), color-stop(100%, #03414D));
-  /*********************************************
- * 背景色
- *********************************************/
-  background: -webkit-radial-gradient(center, circle cover, white 0%, #E3F3AC 100%);
-  background: -o-radial-gradient(center, circle cover, white 0%, #E3F3AC 100%);
-  background: -ms-radial-gradient(center, circle cover, white 0%, #E3F3AC 100%);
-  background: radial-gradient(center, circle cover, white 0%, #03414D 100%);
-  background-color: #03414D; }
+  width:100%; height:100%;
+  padding: 0px; margin:0px;
+			margin:0;
+			padding:0;
 
- /*********************************************
- * 內文字
- *********************************************/
-.reveal {
+      background-image: url(../../image/index.jpg) ;
+			-moz-background-size: cover;
+			background-size: cover;   
 
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 700;
-     src: 
-       url(../../lib/font/league_gothic-webfont.otf) format('opentype');
-  font-size: 36px;
-  font-weight: normal;
-  letter-spacing: -0.02em;
-  color: #FF5656; }
 
-::selection {
-   font-family: 'Noto Sans TC';
-   font-style: normal;
-   font-weight: 700;
-        src: 
-       url(../../lib/font/league_gothic-webfont.otf) format('opentype');
-  font-size: 36px;
-   color: #FF5656;
-  background: rgba(180, 64, 28, 0.99);
-  text-shadow: none; }
+      font-family: 'Noto Sans TC2';
+
+  }
 
 /*********************************************
  * HEADERS 標題字
  *********************************************/
-.reveal h1,
-.reveal h3,
-.reveal h4,
-.reveal h5,
-.reveal h6 {
-  margin: 0 0 16px 0;
-  color: #C9182B;
-    font-family: 'Noto Sans TC2';
+
+.title{
   font-style: normal;
-  font-weight: 900;
-  font-size: 85px;
-  line-height: 0.9em;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-  text-shadow: none; }
+}
+
+.title h1{
+  position:absolute;
+  margin-left:30%;
+
+  color: #C9182B;
+  font-size:65px;
+  letter-spacing: 5px;
+  line-height:80px;
+  text-shadow: 
+  0 1px 0 #FCFAEF, 
+  0 2px 0 #c9c9c9, 
+  0 3px 0 #bbbbbb, 
+  0 4px 0 #b9b9b9, 
+  0 5px 0 #aaaaaa, 
+  0 6px 1px rgba(0, 0, 0, 0.1),
+  0 0 5px rgba(0, 0, 0, 0.1),
+  0 1px 3px rgba(0, 0, 0, 0.3),
+  0 3px 5px rgba(0, 0, 0, 0.2),
+  0 5px 10px rgba(0, 0, 0, 0.25),
+  0 20px 20px rgba(0, 0, 0, 0.15);
+}
+
+/*********************************************
+ * 導覽列
+ *********************************************/
+/*
+				<ul class="nav_area">
+				    <h2>
+  					<li class="button">	社團簡介</li>
+  					<li class="button">	社課簡介</li>
+  					<li class="button">	活ㄨ簡介</li>
+					</h2>
+				</ul>
+			</div>
+*/
+/*  整條導覽列的顏色*/
+.nav_area{
+  width:100%;
+  height:100px;
+  position: absolute;
+  left: 27%;
+  top: 25%;
+
+}
+
+.nav_area h2{
+  font-family: 'Noto Sans TC2';
+  font-size:40px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height:80px;
+}
+.button{
+  display: inline-block;
+}
+
+
+
+
 
 .reveal h2
 {
@@ -88,21 +111,44 @@ body {
   letter-spacing: 0.02em;
   text-transform: uppercase;
   text-shadow: none; }
-.reveal h1 {
-  text-shadow: 
-  0 1px 0 #FCFAEF, 
-  0 2px 0 #c9c9c9, 
-  0 3px 0 #bbbbbb, 
-  0 4px 0 #b9b9b9, 
-  0 5px 0 #aaaaaa, 
 
-  0 6px 1px rgba(0, 0, 0, 0.1),
-  0 0 5px rgba(0, 0, 0, 0.1),
-  0 1px 3px rgba(0, 0, 0, 0.3),
-  0 3px 5px rgba(0, 0, 0, 0.2),
-  0 5px 10px rgba(0, 0, 0, 0.25),
-  0 20px 20px rgba(0, 0, 0, 0.15); }
-}
+
+
+
+
+
+ /*********************************************
+ * 內文字
+ *********************************************/
+/*.reveal {
+
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+     src: 
+       url(../../lib/font/league_gothic-webfont.otf) format('opentype');
+  font-size: 36px;
+  font-weight: normal;
+  letter-spacing: -0.02em;
+  color: #FF5656; }
+*/
+/*
+::selection {
+   font-family: 'Noto Sans TC';
+   font-style: normal;
+   font-weight: 700;
+        src: 
+       url(../../lib/font/league_gothic-webfont.otf) format('opentype');
+  font-size: 36px;
+   color: #FF5656;
+  background: rgba(180, 64, 28, 0.99);
+  text-shadow: none; }
+*/
+
+
+
+
+
 
 /*********************************************
  * LINKS
@@ -130,6 +176,7 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
+ /*
 .reveal section img {
   margin: 15px 0px;
   background: rgba(255, 255, 255, 0.12);
@@ -140,7 +187,7 @@ body {
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear; }
-
+*/
 imagetoall {
    margin:0;
     padding:0;
@@ -204,4 +251,3 @@ imagetoall {
  *********************************************/
 .reveal .slide-number {
   color: #72DFD0; }
-
