@@ -175,6 +175,18 @@ body {
   text-transform: uppercase;
   text-shadow: none; }
 
+.reveal h5
+{
+  margin: 0 0 16px 0;
+  color: #FF5656;
+    font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 120px;
+  line-height:2.5em;
+  letter-spacing:20px;
+  text-transform: uppercase;
+  text-shadow: none; }
 
 
 
