@@ -54,7 +54,7 @@ body {
 
 .title h1{
   position:absolute;
-  margin-left:25%;
+  margin-left:20%;
   top:30px;
   color:#EEEEEE ;
   font-size:65px;
@@ -93,7 +93,7 @@ body {
     margin-right: 1px;
       background: rgba(0, 0, 0, 0.01);
     top:25px;
-    left:140px;
+    left:120px;
     width: 200px; height: 200px;
     border-radius: 100%;
 
