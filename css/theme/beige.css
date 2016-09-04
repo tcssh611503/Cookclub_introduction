@@ -57,7 +57,7 @@ body {
   margin-left:25%;
   top:30px;
   color:#EEEEEE ;
-  font-size:65px;
+  font-size:60px;
   letter-spacing: 5px;
   line-height:80px;
   /*
@@ -92,7 +92,7 @@ body {
     margin-right: 1px;
       background: rgba(0, 0, 0, 0.01);
     top:25px;
-    left:150px;
+    left:120px;
     width: 200px; height: 200px;
     border-radius: 100%;
   position: absolute;
