@@ -162,6 +162,19 @@ body {
   text-transform: uppercase;
   text-shadow: none; }
 
+  .reveal h4
+{
+  margin: 0 0 16px 0;
+    color: #000000;
+    font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: none; }
+
 
 
 
@@ -174,7 +187,35 @@ body {
   top: 1px;
   left:660px;
 
-   color: #DCE1E5;
+   color: #ffffff;
+   font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height:1.8em;
+  letter-spacing:5px;
+}
+
+.img_p2 p{
+  position: absolute;
+  top: 1px;
+  left:660px;
+
+   color: #FF5656;
+   font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height:1.8em;
+  letter-spacing:5px;
+}
+
+.img_p3 p{
+  position: absolute;
+  top: 1px;
+  left:660px;
+
+   color: #000000;
    font-family: 'Noto Sans TC2';
   font-style: normal;
   font-weight: bold;
