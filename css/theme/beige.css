@@ -149,6 +149,19 @@ body {
   text-transform: uppercase;
   text-shadow: none; }
 
+  .reveal h3
+{
+  margin: 0 0 16px 0;
+    color: #FBFBFB;
+    font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 0.9em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  text-shadow: none; }
+
 
 
 
@@ -164,15 +177,14 @@ body {
    color: #DCE1E5;
    font-family: 'Noto Sans TC2';
   font-style: normal;
-  font-weight: 700;
+  font-weight: bold;
   font-size: 22px;
-  line-height:2.5em;
+  line-height:1.8em;
   letter-spacing:5px;
 }
 
 
 /*.reveal {
-
    font-family: 'Noto Sans TC';
    font-style: normal;
    font-weight: 700;
@@ -238,9 +250,7 @@ body {
   transition: all .2s linear; }
 
 /*
-
   box-shadow: 0 0 10px rgba(0, 150, 0, 0.15);
-
 imagetoall {
    margin:0;
     padding:0;
@@ -248,7 +258,6 @@ imagetoall {
     -moz-background-size: cover;
     background-size: cover;
 }
-
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #8b743d;
