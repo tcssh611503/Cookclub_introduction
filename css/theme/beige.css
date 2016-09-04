@@ -22,7 +22,7 @@ body {
 			margin:0;
 			padding:0;
 
-      background-image: url(../../image/index.jpg) ;
+      background-image: url(../../image/index4.jpg) ;
 			-moz-background-size: cover;
 			background-size: cover;   
 
@@ -30,6 +30,19 @@ body {
       font-family: 'Noto Sans TC2';
 
   }
+
+ .page2
+ {
+  
+  position: absolute;
+  width: 100%; height: 100%;
+  padding: 0px; margin: 0px;
+  font-weight: 100;
+  color: rgba(0,0,0,0.035);
+       background-image: url(../../image/index-4.jpg) ;
+			-moz-background-size: cover;
+			background-size: cover;   
+ } 
 
 /*********************************************
  * HEADERS 標題字
@@ -42,11 +55,12 @@ body {
 .title h1{
   position:absolute;
   margin-left:30%;
-
-  color: #C9182B;
+  top:30px;
+  color:#EEEEEE ;
   font-size:65px;
   letter-spacing: 5px;
   line-height:80px;
+  /*
   text-shadow: 
   0 1px 0 #FCFAEF, 
   0 2px 0 #c9c9c9, 
@@ -59,7 +73,20 @@ body {
   0 3px 5px rgba(0, 0, 0, 0.2),
   0 5px 10px rgba(0, 0, 0, 0.25),
   0 20px 20px rgba(0, 0, 0, 0.15);
+  */
 }
+  /*   rgba(208, 255, 202, 0.9)*/
+.title p{
+    color: #DCE1E5;
+  top:500px;
+   font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 25px;
+  line-height:2.5em;
+  letter-spacing:5px;
+}
+
 
 /*********************************************
  * 導覽列
@@ -96,9 +123,6 @@ body {
 }
 
 
-
-
-
 .reveal h2
 {
   margin: 0 0 16px 0;
@@ -115,11 +139,25 @@ body {
 
 
 
-
-
  /*********************************************
  * 內文字
  *********************************************/
+
+.img_p p{
+  position: absolute;
+  top: 1px;
+  left:660px;
+
+   color: #DCE1E5;
+   font-family: 'Noto Sans TC2';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height:2.5em;
+  letter-spacing:5px;
+}
+
+
 /*.reveal {
 
    font-family: 'Noto Sans TC';
@@ -144,11 +182,6 @@ body {
   background: rgba(180, 64, 28, 0.99);
   text-shadow: none; }
 */
-
-
-
-
-
 
 /*********************************************
  * LINKS
@@ -176,18 +209,25 @@ body {
 /*********************************************
  * IMAGES
  *********************************************/
- /*
+
 .reveal section img {
-  margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #03414D;
-  box-shadow: 0 0 10px rgba(0, 150, 0, 0.15);
+    
+  margin: 20px 0px;
+    margin-right: 1800px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 10px solid rgba(255, 255, 255, 0.9);
+
+  width: 600px; height: 450px;
   -webkit-transition: all .2s linear;
   -moz-transition: all .2s linear;
   -ms-transition: all .2s linear;
   -o-transition: all .2s linear;
   transition: all .2s linear; }
-*/
+
+/*
+
+  box-shadow: 0 0 10px rgba(0, 150, 0, 0.15);
+
 imagetoall {
    margin:0;
     padding:0;
@@ -199,7 +239,8 @@ imagetoall {
 .reveal a:hover img {
   background: rgba(255, 255, 255, 0.2);
   border-color: #8b743d;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.55); }
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.9); }
+  */
 
 /*********************************************
  * NAVIGATION CONTROLS
