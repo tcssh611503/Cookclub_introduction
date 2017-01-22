@@ -1,0 +1,117 @@
+
+.button1 {
+    position:relative;
+    /*根據不同瀏覽器設定CSS3的前置詞*/
+    /* 設定動畫播映5秒 設定播次數為無限次*/
+    animation:buttonmove 5s infinite; /*IE*/
+    -moz-animation:buttonmove 5s infinite; /*FireFox*/
+    -webkit-animation:buttonmove 5s infinite; /*Chrome, Safari*/
+}
+
+
+button{
+  /*設定按鈕長寬*/
+ width:100px;
+ height:100px;
+/*設定背景顏色*/
+background-color: #0374DD;
+/*設定文字顏色*/
+color: #F0F8FF;
+/*設定文字大小*/
+font-size:1.2em;
+/*設定按鈕圓角*/
+border-radius: 50%;
+/*設定按鈕框線*/
+border: solid 1px rgba(0,0,0,0.15);
+ /*設定按鈕框線陰影*/
+box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+}
+
+
+  /*設定按鈕動畫，在不同位置*/
+@keyframes buttonmove {
+   /*設定動畫影格從開始0%~完成100%*/
+  0%{
+  /*設定位置/
+    left: 0px;
+    top: :0px;
+  /*設定動畫播映速度，即補足間隔影格*/
+ /*linear 以固定數度播放 ease開始與結束平滑播放 ease-in慢到快 ease-out由快到慢 ease-in-out由慢到快再到慢*/
+    animation-timing-function: ease;
+  }
+
+  25%{left: 0px;
+     top:  600px;
+       animation-timing-function: ease-in;
+  
+  }
+
+  50%{left: 600px;
+     top: 600px;
+       animation-timing-function: linear;
+  
+   }
+
+
+  75% {left:600px;
+     top:   0px;
+       animation-timing-function: linear;
+  
+   }
+
+   100%{left: 0px;
+     top: 0px;
+            animation-timing-function: linear;
+   }
+
+  }
+
+
+
+.button2 {
+ margin-top:  50px; 
+}
+
+
+    /*hover 滑鼠移過時才播放 active滑鼠按住時才播放 */
+.button2:active{
+
+    
+    position:relative;
+   animation: buttonmove2 5s 1; /*IE*/
+    -moz-animation:buttonmove2 5s 1; /*FireFox*/
+    -webkit-animation:buttonmove2 5s 1; /*Chrome, Safari*/
+}
+
+@keyframes buttonmove2 {
+  0%{left: 0px;
+     top: :0px;
+  animation-duration: 50s;
+  animation-timing-function: linear;
+  }
+
+  25%{left: 0px;
+     top:  600px;
+       animation-timing-function: linear;
+  
+  }
+
+  50%{left: 600px;
+     top: 600px;
+       animation-timing-function: linear;
+  
+   }
+
+
+  75% {left:600px;
+     top:   0px;
+       animation-timing-function: linear;
+  
+   }
+
+   100%{left: 0px;
+     top: 0px;
+            animation-timing-function: linear;
+   }
+}
+
